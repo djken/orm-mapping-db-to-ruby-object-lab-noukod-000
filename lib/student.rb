@@ -64,7 +64,7 @@ class Student
     ORDER BY id LIMIT 1
     SQL
 
-    new_from_db DB[:conn].execute(sql,10)[0]
+    new_from_db DB[:conn].execute(sql, 10)[0]
   end
 
   # This method should return an array of all students for grade X.

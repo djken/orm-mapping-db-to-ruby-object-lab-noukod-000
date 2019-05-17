@@ -114,7 +114,7 @@ class Student
     DB[:conn].execute(sql)
   end
 
-  # This is a class method that drops the students table. 
+  # This is a class method that drops the students table.
   def self.drop_table
     sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql)
